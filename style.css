@@ -1,0 +1,117 @@
+html{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, 'sans-serif';
+	letter-spacing: 1px;
+}
+nav{
+	display: flex;
+	justify-content: flex-end;
+	background: maroon;
+	width: 100%;
+	height: auto;
+	position: sticky;
+	top: 0;
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li a{
+	display: inline-block;
+	padding: 30px;
+	font-size: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background: gray;
+}
+#welcome-section{
+	height: 100vh;
+	width: 100%;
+	background: gray;
+	padding: 1px;
+}
+#welcome-section h1{
+	height: 100%;
+	margin-top: 50%;
+	transform: translateY(-70%);
+	font-size: 50px;
+	text-align: center;
+	font-weight: 500;
+	color: white;
+}
+#projects{
+                margin: 30px auto;
+                padding: 1px;
+            }
+            #projects h3{
+                text-align: center;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+            .grid-div{
+                display: grid;
+                grid-template-columns: repeat(3, minmax(300px, 1fr));
+                grid-column-gap: 30px;
+                margin: auto;
+                width: fit-content;
+            }
+            .project-tile{
+                width: 100%;
+                margin: 20px auto;
+            }
+            .project-tile div{
+                height: auto;
+                min-height: 200px;
+                width: 100%;
+                background: #f0f0f0;
+            }
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+            }
+            .project-tile a{
+                display: block;
+                height: 40px;
+                width: 100%;
+                background: gray;
+                color: #fff;
+                line-height: 40px;
+            }
+#github a{
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            font-size: 50px;
+            color: maroon;
+        }
+
+		footer {
+            background-color: maroon;
+			 padding-top: 30px;
+			 color: white;
+			 text-align: center;
+		}
+		footer h3{
+			font-size: 40px;
+			margin-bottom: 20px;
+		}
+		footer p a{
+			font-size: 20px;
+			color: grey;
+			text-decoration:none ;
+			display:inline-block;
+			margin-right: 10px;
+		}
+@media only screen and (min-width:500px){
+	h1{
+		font-size: 100px;
+	}
+}
